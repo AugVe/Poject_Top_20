@@ -1,0 +1,17 @@
+# Entornos virtuales
+venv/
+env/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos del sistema operativo (estás en Mac, esto es vital)
+.DS_Store
+
+# Archivos temporales de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Archivos de configuración locales y variables de entorno
+.env∫
