@@ -14,4 +14,4 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Archivos de configuración locales y variables de entorno
-.env∫
+.env
