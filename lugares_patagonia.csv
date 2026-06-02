@@ -1,0 +1,51 @@
+id_lugar,nombre,region,latitud,longitud,dias_sugeridos,termino_busqueda
+1,Parque Nacional Tierra del Fuego,Ushuaia,-54.83,-68.46,1,Parque Nacional Tierra del Fuego TripAdvisor
+2,Laguna Esmeralda,Ushuaia,-54.71,-68.12,1,Laguna Esmeralda Ushuaia TripAdvisor
+3,Glaciar Martial,Ushuaia,-54.79,-68.39,0.5,Glaciar Martial Ushuaia TripAdvisor
+4,Canal Beagle (Navegacion),Ushuaia,-54.87,-68.23,0.5,Navegacion Canal Beagle Ushuaia TripAdvisor
+5,Cerro Castor,Ushuaia,-54.72,-68.01,1,Cerro Castor Ushuaia TripAdvisor
+6,Lago Fagnano,Ushuaia,-54.55,-67.28,0.5,Lago Fagnano Tierra del Fuego TripAdvisor
+7,Lago Escondido,Ushuaia,-54.67,-67.78,0.5,Lago Escondido Tierra del Fuego TripAdvisor
+8,Isla Martillo (Pinguinos),Ushuaia,-54.86,-67.38,0.5,Isla Martillo Ushuaia TripAdvisor
+9,Faro Les Eclaireurs,Ushuaia,-54.87,-68.08,0.5,Faro Les Eclaireurs Ushuaia TripAdvisor
+10,Estancia Harberton,Ushuaia,-54.87,-67.32,0.5,Estancia Harberton Ushuaia TripAdvisor
+11,Sendero Costero PN TdF,Ushuaia,-54.84,-68.48,0.5,Sendero Costero Ushuaia TripAdvisor
+12,Laguna Turquesa,Ushuaia,-54.71,-68.10,0.5,Laguna Turquesa Ushuaia TripAdvisor
+13,Cerro Guanaco,Ushuaia,-54.82,-68.48,1,Cerro Guanaco Ushuaia TripAdvisor
+14,Valle de Lobos,Ushuaia,-54.74,-68.18,0.5,Valle de Lobos Ushuaia TripAdvisor
+15,Glaciar Vinciguerra,Ushuaia,-54.74,-68.32,1,Glaciar Vinciguerra Ushuaia TripAdvisor
+16,Glaciar Perito Moreno,El Calafate,-50.47,-73.03,1,Glaciar Perito Moreno TripAdvisor
+17,Reserva Laguna Nimez,El Calafate,-50.32,-72.25,0.5,Reserva Laguna Nimez TripAdvisor
+18,Glaciar Upsala,El Calafate,-50.00,-73.30,1,Glaciar Upsala TripAdvisor
+19,Glaciar Spegazzini,El Calafate,-50.18,-73.34,1,Glaciar Spegazzini TripAdvisor
+20,Balcon de Calafate,El Calafate,-50.36,-72.26,0.5,Balcon de Calafate TripAdvisor
+21,Bosque Petrificado La Leona,El Calafate,-49.81,-72.06,0.5,Bosque Petrificado La Leona TripAdvisor
+22,Laguna de los Tres,El Chalten,-49.27,-72.96,1,Laguna de los Tres El Chalten TripAdvisor
+23,Laguna Torre,El Chalten,-49.32,-73.00,1,Laguna Torre El Chalten TripAdvisor
+24,Chorrillo del Salto,El Chalten,-49.30,-72.88,0.5,Chorrillo del Salto El Chalten TripAdvisor
+25,Glaciar Huemul,El Chalten,-49.03,-72.89,0.5,Glaciar Huemul El Chalten TripAdvisor
+26,Mirador de los Condores,El Chalten,-49.34,-72.88,0.5,Mirador de los Condores El Chalten TripAdvisor
+27,Mirador de las Aguilas,El Chalten,-49.34,-72.87,0.5,Mirador de las Aguilas El Chalten TripAdvisor
+28,Loma del Pliegue Tumbado,El Chalten,-49.35,-72.94,1,Loma del Pliegue Tumbado El Chalten TripAdvisor
+29,Lago del Desierto,El Chalten,-49.03,-72.88,1,Lago del Desierto El Chalten TripAdvisor
+30,Piedra del Fraile,El Chalten,-49.21,-72.95,1,Piedra del Fraile El Chalten TripAdvisor
+31,Cerro Catedral,Bariloche,-41.16,-71.43,1,Cerro Catedral Bariloche TripAdvisor
+32,Cerro Campanario,Bariloche,-41.05,-71.48,0.5,Cerro Campanario Bariloche TripAdvisor
+33,Cerro Tronador (Ventisquero Negro),Bariloche,-41.19,-71.88,1,Cerro Tronador Bariloche TripAdvisor
+34,Circuito Chico,Bariloche,-41.06,-71.53,0.5,Circuito Chico Bariloche TripAdvisor
+35,Colonia Suiza,Bariloche,-41.08,-71.50,0.5,Colonia Suiza Bariloche TripAdvisor
+36,Parque Municipal Llao Llao,Bariloche,-41.04,-71.54,0.5,Parque Llao Llao Bariloche TripAdvisor
+37,Isla Victoria,Bariloche,-40.94,-71.53,1,Isla Victoria Bariloche TripAdvisor
+38,Bosque de Arrayanes,Villa La Angostura,-40.78,-71.66,0.5,Bosque de Arrayanes TripAdvisor
+39,Villa Traful,Villa Traful,-40.66,-71.40,1,Villa Traful TripAdvisor
+40,Lago Espejo,Villa La Angostura,-40.63,-71.74,0.5,Lago Espejo TripAdvisor
+41,Lago Correntoso,Villa La Angostura,-40.73,-71.66,0.5,Lago Correntoso TripAdvisor
+42,Lago Villarino,Ruta 7 Lagos,-40.45,-71.59,0.5,Lago Villarino TripAdvisor
+43,Lago Falkner,Ruta 7 Lagos,-40.44,-71.57,0.5,Lago Falkner TripAdvisor
+44,Cascada Nuvinco,Ruta 7 Lagos,-40.42,-71.59,0.5,Cascada Nuvinco TripAdvisor
+45,Costanera Lago Lacar,San Martin de los Andes,-40.16,-71.35,0.5,Costanera San Martin de los Andes TripAdvisor
+46,Cerro Chapelco,San Martin de los Andes,-40.23,-71.29,1,Cerro Chapelco TripAdvisor
+47,Playa Yuco,San Martin de los Andes,-40.16,-71.53,0.5,Playa Yuco TripAdvisor
+48,Lago Machonico,Ruta 7 Lagos,-40.35,-71.37,0.5,Lago Machonico TripAdvisor
+49,Mirador Bandurrias,San Martin de los Andes,-40.15,-71.37,0.5,Mirador Bandurrias TripAdvisor
+50,Lago Hermoso,Ruta 7 Lagos,-40.35,-71.46,0.5,Lago Hermoso TripAdvisor
