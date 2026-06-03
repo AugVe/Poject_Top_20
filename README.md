@@ -19,14 +19,14 @@ El algoritmo central fue diseñado específicamente para resolver esos "cuellos 
 * **Despliegue (Deploy):** Configurado para funcionar nativamente en Render.
 
 ## 📂 Estructura del Proyecto
-
+```
 /
 ├── main.py                          # Motor de la API y lógica de rutas (FastAPI)
 ├── index.html                       # Interfaz gráfica (SPA)
 ├── ranking_patagonia_ia_limpio.csv  # Dataset pre-procesado de destinos y scores
 ├── requirements.txt                 # Dependencias del proyecto
 └── .gitignore                       # Archivos ignorados por el control de versiones
-
+```
 
 ## 💻 Instalación y Uso Local
 
