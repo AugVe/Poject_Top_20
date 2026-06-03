@@ -1,10 +1,15 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, CORSMiddleware
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import pandas as pd
 import numpy as np
 from math import radians, cos, sin, asin, sqrt
 
 app = FastAPI()
+
+@app.get("/")
+def mostrar_interfaz():
+    return FileResponse("index.html")
 
 # 1. Carga de datos
 df_ranking = pd.read_csv('ranking_patagonia_ia_limpio.csv')
