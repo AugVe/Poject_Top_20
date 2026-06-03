@@ -1,4 +1,4 @@
-from fastapi import FastAPI, CORSMiddleware
+from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 import pandas as pd
