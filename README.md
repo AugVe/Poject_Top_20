@@ -34,7 +34,7 @@ Si deseas correr este proyecto en tu propia máquina, sigue estos pasos:
 
 1. Clonar el repositorio:
 ```
-git clone https://github.com/TU_USUARIO/TU_REPO.git
+git clone https://github.com/AugVe/Poject_Top_20.git
 cd TU_REPO
 ```
 
