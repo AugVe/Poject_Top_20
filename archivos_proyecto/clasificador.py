@@ -18,7 +18,7 @@ print("🚀 Cargando dataset limpio...")
 df = pd.read_csv('ds_lugares_limpio.csv')
 
 print("🤖 Inicializando modelo de IA (Versión ligera para Mac)...")
-# Usamos 'distilbart', que es mucho más liviano y pensado para correr en CPUs con poca RAM
+
 classifier = pipeline(
     "zero-shot-classification", 
     model="valhalla/distilbart-mnli-12-1", # Modelo optimizado para RAM limitada
@@ -31,13 +31,11 @@ categorias = ["Trekking", "Naturaleza", "Ciudad", "Multitudes"]
 print("🧠 Analizando reseñas (Procesamiento Aislado)...")
 resultados = []
 
-# 🔥 TRUCO VITAL: Transformamos la columna de Pandas en una simple lista nativa de Python.
-# Esto evita que Pandas y PyTorch se peleen por acceder al mismo bloque de memoria RAM.
+# Transformamos la columna de Pandas en una simple lista nativa de Python.
 textos_puros = df['texto_resena'].astype(str).tolist()
 
 for texto in tqdm(textos_puros):
     try:
-        # Procesamos limitando a 500 caracteres
         res = classifier(texto[:500], candidate_labels=categorias)
         diccionario_scores = dict(zip(res['labels'], res['scores']))
         resultados.append(diccionario_scores)

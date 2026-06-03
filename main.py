@@ -18,7 +18,7 @@ class ViajeRequest(BaseModel):
     cantidad_dias: int
     preferencias: str
 
-# 2. Clasificador Ligero (Reemplaza a HuggingFace para no consumir RAM)
+# 2. Clasificador Ligero
 def detectar_intencion_ligera(texto: str):
     texto = texto.lower()
     if any(palabra in texto for palabra in ["ciudad", "compras", "urbano", "hotel", "ruido", "gente"]):
@@ -26,7 +26,7 @@ def detectar_intencion_ligera(texto: str):
     elif any(palabra in texto for palabra in ["naturaleza", "silencio", "virgen", "aislado", "paz"]):
         return "Naturaleza"
     else:
-        return "Trekking" # Opción por defecto o si menciona montaña/trekking
+        return "Trekking"
 
 def calcular_distancia(lat1, lon1, lat2, lon2):
     R = 6371
@@ -37,7 +37,6 @@ def calcular_distancia(lat1, lon1, lat2, lon2):
 
 @app.post("/planificar-itinerario")
 def planificar_itinerario(request: ViajeRequest):
-    # Usamos nuestro clasificador de 0 RAM
     mejor_categoria = detectar_intencion_ligera(request.preferencias)
     
     radio_maximo = request.cantidad_dias * 100 
